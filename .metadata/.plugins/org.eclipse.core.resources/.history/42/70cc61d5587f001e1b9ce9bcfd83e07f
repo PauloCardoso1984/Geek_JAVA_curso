@@ -1,0 +1,32 @@
+package aula_14;
+
+import java.util.Scanner;
+
+public class Inverter_Ordem {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Faça um programa que leia um número inteiro positico de 3 digitos (100 a 999). \n"
+				+ "Gere um outro numero de forma inversa");
+		System.out.println();
+		
+		
+		
+		System.out.println("Digite um número em 100 a 999: ");
+		int numero = sc.nextInt();
+		
+		
+		// MÉTODO PARA INVERTER A SEQUENCIA
+		public static String inverterCaracteres (String string) {
+		
+		int quantidade, string;
+		
+		n = string
+		
+		}
+		
+		sc.close();
+	}
+}

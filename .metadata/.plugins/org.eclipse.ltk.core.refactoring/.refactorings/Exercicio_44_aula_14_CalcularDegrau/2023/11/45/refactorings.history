@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_14.FolhaSalario&apos; to &apos;CalcularDegrau&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_44_aula_14_CalcularDegrau&apos;&#x0D;&#x0A;- Original element: &apos;aula_14.FolhaSalario&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_14.CalcularDegrau&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FolhaSalario&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_14{FolhaSalario.java[FolhaSalario" matchStrategy="1" name="CalcularDegrau" qualified="false" references="true" similarDeclarations="false" stamp="1699491493513" textual="false" version="1.0"/>
+</session>

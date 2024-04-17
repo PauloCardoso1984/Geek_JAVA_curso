@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;object.Caiza&apos; to &apos;Caixa&apos;&#x0D;&#x0A;- Original project: &apos;Aula_85_Object&apos;&#x0D;&#x0A;- Original element: &apos;object.Caiza&apos;&#x0D;&#x0A;- Renamed element: &apos;object.Caixa&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Caiza&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;object{Caiza.java[Caiza" matchStrategy="1" name="Caixa" qualified="false" references="true" similarDeclarations="false" stamp="1703429768191" textual="false" version="1.0"/>
+</session>

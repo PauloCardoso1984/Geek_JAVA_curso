@@ -1,0 +1,45 @@
+package calculo;
+
+public class Pitagoras {
+	
+	public int a;
+	public int b;
+	public int c;
+		
+	public Pitagoras(int a, int b, int c) {
+		this.a = a;
+		this.b = b;
+		this.c = c;
+	}
+
+	public int getA() {
+		return a;
+	}
+	public void setA(int a) {
+		this.a = a;
+	}
+	public int getB() {
+		return b;
+	}
+	public void setB(int b) {
+		this.b = b;
+	}
+	public int getC() {
+		return c;
+	}
+	public void setC(int c) {
+		this.c = c;
+	}
+	
+	// Metodo
+	public double pitagoras (int a, int b, int c) {
+		return (b * b ) - 4 * a * c;
+	}
+	
+	public double raiz1 (double pitagoras) {
+		return -b + (Math.sqrt(pitagoras)) / 2 * a; 
+	}
+	public double raiz2 (double pitagoras) {
+		return -b - (Math.sqrt(pitagoras)) / 2 * a; 
+	}
+}

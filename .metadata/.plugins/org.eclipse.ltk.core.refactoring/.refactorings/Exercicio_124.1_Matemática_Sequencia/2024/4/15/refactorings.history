@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;calculo.Serie&apos; to &apos;Sequencia&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_124.1_Matemática_Sequencia&apos;&#x0D;&#x0A;- Original element: &apos;calculo.Serie&apos;&#x0D;&#x0A;- Renamed element: &apos;calculo.Sequencia&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Serie&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;calculo{Serie.java[Serie" matchStrategy="1" name="Sequencia" qualified="false" references="true" similarDeclarations="false" stamp="1712792587367" textual="false" version="1.0"/>
+</session>

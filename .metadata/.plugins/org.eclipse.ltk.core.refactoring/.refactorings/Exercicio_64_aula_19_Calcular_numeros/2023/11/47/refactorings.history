@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_19.Calculo_IMC&apos; to &apos;Calcular_Sequencia&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_64_aula_19_Calcular_numeros&apos;&#x0D;&#x0A;- Original element: &apos;aula_19.Calculo_IMC&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_19.Calcular_Sequencia&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Calculo_IMC&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_19{Calculo_IMC.java[Calculo_IMC" matchStrategy="1" name="Calcular_Sequencia" qualified="false" references="true" similarDeclarations="false" stamp="1700404439805" textual="false" version="1.0"/>
+</session>

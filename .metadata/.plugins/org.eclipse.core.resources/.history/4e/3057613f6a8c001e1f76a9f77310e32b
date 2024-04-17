@@ -1,0 +1,29 @@
+package aula_19;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Programa {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Faça um algoritmo que calcule o IMC de uma pessoa e mostre sua classificação de acordo com a tabela.\n"
+				+ "*IMC			*CLASSIFICAÇÃO\n"
+				+ "< 18.5			Abaixo do peso\n"
+				+ "18.6 - 24.9		Saudável\n"
+				+ "25.0 - 29.9		Peso em excesso\n"
+				+ "30.0 - 34.9		Obesidade grau I\n"
+				+ "35.0 - 39.9		Obesidade grau II - severa\n"
+				+ ">= 40.0			Obesidade grau III - mórbida");
+		System.out.println();
+		
+	
+		
+		// CALCULADO O VALOR
+		
+		sc.close();
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_14.HorasMinutosSegundos&apos; to &apos;CalcularIdade&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_50_aula_14_CalcularIdade&apos;&#x0D;&#x0A;- Original element: &apos;aula_14.HorasMinutosSegundos&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_14.CalcularIdade&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HorasMinutosSegundos&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_14{HorasMinutosSegundos.java[HorasMinutosSegundos" matchStrategy="1" name="CalcularIdade" qualified="false" references="true" similarDeclarations="false" stamp="1699804025212" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,22 @@
+package threads;
+
+import java.util.Scanner;
+
+/* Simulação de geração de relatório + barra de tarefa sem utilização de threads.
+ 
+ */
+public class Programa {
+	public static void main(String[] args) {
+		Scanner tc = new Scanner(System.in);
+		
+		BarraDeProgresso barra = new BarraDeProgresso();
+		barra.executa();
+		
+		GeraRelatorio relatorio = new GeraRelatorio();
+		relatorio.executa();
+
+		
+			
+		tc.close();
+	}
+}

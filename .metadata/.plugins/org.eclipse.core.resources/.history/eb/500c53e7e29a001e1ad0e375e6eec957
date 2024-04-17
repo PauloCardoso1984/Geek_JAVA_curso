@@ -1,0 +1,17 @@
+package templeteMethod;
+
+public class TreinamentoFimDaTemporada extends Treinamento {
+
+	@Override
+	public void preparoFisico() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void jogoTreino() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

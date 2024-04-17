@@ -1,0 +1,11 @@
+package calculo;
+
+public class Calculo {
+
+	public static void main(String[] args) {
+		System.out.println("Faça um programa que calcule o termo pitagórico a, b, c");
+		System.out.println();
+
+
+    }
+}

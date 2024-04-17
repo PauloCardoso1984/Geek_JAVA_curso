@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_19.Maior_Diferenca&apos; to &apos;MaiorMenorIguais&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_60_aula_19_MaiorMenorIguais&apos;&#x0D;&#x0A;- Original element: &apos;aula_19.Maior_Diferenca&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_19.MaiorMenorIguais&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Maior_Diferenca&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_19{Maior_Diferenca.java[Maior_Diferenca" matchStrategy="1" name="MaiorMenorIguais" qualified="false" references="true" similarDeclarations="false" stamp="1700396677467" textual="false" version="1.0"/>
+</session>

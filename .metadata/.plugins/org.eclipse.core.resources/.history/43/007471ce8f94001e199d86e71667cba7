@@ -1,0 +1,25 @@
+//	VETORES PARTE 1
+// Arrays [vetores uni-dimensionais
+/*	
+ * int numeros [5].
+ * 
+ * para culcula o ultimo elemento é: 0.... [n - 1];
+ * 
+ * vetor [indice];
+ * numero [0]; primeiro elemento
+ * numero [1]; segundo elemento
+ * numero [2]; terceiro elemento
+ * numero [3]; quarto elemento
+ * numero [4]; quinto
+ * 
+ * */
+
+package aula32;
+
+public class Switch {
+	public static void main(String[] args) {
+		
+		in numeros [] = new unt [5]; // Declarando o tipo e instanciando a quantidade
+
+	}
+}

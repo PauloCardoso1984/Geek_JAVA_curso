@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_14.Area_Cilindro&apos; to &apos;Desconto&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_37.1_aula_14_Calcular_Desconto&apos;&#x0D;&#x0A;- Original element: &apos;aula_14.Area_Cilindro&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_14.Desconto&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Area_Cilindro&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_14{Area_Cilindro.java[Area_Cilindro" matchStrategy="1" name="Desconto" qualified="false" references="true" similarDeclarations="false" stamp="1699115232713" textual="false" version="1.0"/>
+</session>

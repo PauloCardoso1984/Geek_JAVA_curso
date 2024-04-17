@@ -1,0 +1,8 @@
+Cole o documento na area de trabalho
+
+Depois
+
+Abrir o prompt
+C:\Users\Paulo>cd Desktop
+
+digite ->  java -jar prc.jar

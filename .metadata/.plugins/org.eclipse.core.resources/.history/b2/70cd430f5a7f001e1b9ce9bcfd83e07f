@@ -1,0 +1,28 @@
+package aula_14;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class Inverter_Ordem {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Faça um programa que leia um número inteiro positico de 3 digitos (100 a 999). \n"
+				+ "Gere um outro numero de forma inversa. Solicite uma palavra e também inverta.");
+		System.out.println();
+		
+		
+        String palavra = "Abobora Vermelha";
+        String resultado=""; 
+
+        for(int x = palavra.length() -1;x>=0;x--){
+            resultado = resultado + palavra.charAt(x);
+        }
+        System.out.println(resultado);
+    }
+}
+		
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_14.Litros_MetrosCubicos&apos; to &apos;Kilos_Libras&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_20_aula_14_Kilos_Libras&apos;&#x0D;&#x0A;- Original element: &apos;aula_14.Litros_MetrosCubicos&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_14.Kilos_Libras&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Litros_MetrosCubicos&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_14{Litros_MetrosCubicos.java[Litros_MetrosCubicos" matchStrategy="1" name="Kilos_Libras" qualified="false" references="true" similarDeclarations="false" stamp="1699022647354" textual="false" version="1.0"/>
+</session>

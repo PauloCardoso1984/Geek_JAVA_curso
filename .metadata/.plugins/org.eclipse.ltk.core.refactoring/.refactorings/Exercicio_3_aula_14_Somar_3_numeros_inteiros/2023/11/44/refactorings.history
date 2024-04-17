@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_14.Numero_Reais&apos; to &apos;Somar_Numero_Inteiros&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_3_aula_14_Somar_3_numeros_inteiros&apos;&#x0D;&#x0A;- Original element: &apos;aula_14.Numero_Reais&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_14.Somar_Numero_Inteiros&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Numero_Reais&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_14{Numero_Reais.java[Numero_Reais" matchStrategy="1" name="Somar_Numero_Inteiros" qualified="false" references="true" similarDeclarations="false" stamp="1698926791233" textual="false" version="1.0"/>
+</session>

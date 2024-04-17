@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_14.MetrosQuadrado_Hectares&apos; to &apos;Hectares_MetrosQuadrado&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_27_aula_14_hectares_metrosquadrdo&apos;&#x0D;&#x0A;- Original element: &apos;aula_14.MetrosQuadrado_Hectares&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_14.Hectares_MetrosQuadrado&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MetrosQuadrado_Hectares&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_14{MetrosQuadrado_Hectares.java[MetrosQuadrado_Hectares" matchStrategy="1" name="Hectares_MetrosQuadrado" qualified="false" references="true" similarDeclarations="false" stamp="1699026141338" textual="false" version="1.0"/>
+</session>

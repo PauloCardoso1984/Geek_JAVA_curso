@@ -1,0 +1,49 @@
+package calculo;
+
+import java.util.Scanner;
+
+public class Calculo {
+
+	public static void main(String[] args) {
+		System.out.println("Faça um programa que calcula a associação em paralelo de dois resistores "
+				+ "R1 e R2 fornecidos pelo usuário via teclado. O programa fica pedindo estes valores "
+				+ "e calculando até que o usuário entre com um valor para resistencia igual a zero");
+		System.out.println();
+		
+		Scanner input = new Scanner(System.in);
+
+		int numero;
+		int r1 = Integer.MIN_VALUE;
+		int menor = Integer.MAX_VALUE;
+		String numerosDigitados = "";
+
+		System.out.println("Digite uma sequência de números inteiros (para parar, digite 0 ou um número negativo): ");
+
+		do {
+			// Lê o número inteiro digitado pelo usuário
+			numero = input.nextInt();
+
+			// Verifica se o número é maior que o maior número encontrado até agora
+			if (numero > maior && numero > 0) {
+				maior = numero;
+			}
+
+			// Verifica se o número é menor que o menor número encontrado até agora
+			if (numero < menor && numero > 0) {
+				menor = numero;
+			}
+
+			// Adiciona o número à sequência de números digitados
+			if (numero > 0) {
+				numerosDigitados += numero + " ";
+			}
+
+		} while (numero > 0);
+
+		System.out.println("O maior número é: " + maior);
+		System.out.println("O menor número é: " + menor);
+		System.out.println("Números digitados: " + numerosDigitados);
+
+		input.close();
+	}
+}

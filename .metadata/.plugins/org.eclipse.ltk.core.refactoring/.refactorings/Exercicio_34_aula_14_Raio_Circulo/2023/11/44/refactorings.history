@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_14.Mostrar_o_quadrado&apos; to &apos;Raio_Circulo&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_34_aula_14_Raio_Circulo&apos;&#x0D;&#x0A;- Original element: &apos;aula_14.Mostrar_o_quadrado&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_14.Raio_Circulo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Mostrar_o_quadrado&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_14{Mostrar_o_quadrado.java[Mostrar_o_quadrado" matchStrategy="1" name="Raio_Circulo" qualified="false" references="true" similarDeclarations="false" stamp="1699112635326" textual="false" version="1.0"/>
+</session>

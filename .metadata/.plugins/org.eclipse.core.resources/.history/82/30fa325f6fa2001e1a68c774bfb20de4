@@ -1,0 +1,41 @@
+package object;
+/* Object: A mãe de todas as classes
+
+A classe Object, faz parte do pacote java.lang
+ 
+ 
+ */
+
+
+public class Programa { 
+	
+	public static void main(String[] args) {
+		Cliente cl1 = new Cliente("Paulo Cardoso" , "Rua 10");
+		Cliente cl2 = new Cliente("Reginaldo Cardoso" , "Rua 12");
+		
+		Conta c1 = new Conta(1, 200, 600, cl1);
+		Conta c2 = new Conta(1, 1200, 1600, cl2);
+		
+		System.out.println(c1);
+		System.out.println(c2);
+		
+		System.out.println();
+		
+		// FAZENDO COMPARAÇÃO DE CONTAS
+		if (c1 == c2) {
+			System.out.println("E´a mesma conta...");
+		} else {
+			System.out.println("São contas diferentes...");
+		}
+		
+		System.out.println();
+		
+		// FAZENDO DE OUTRA FORMA
+		if (c1.equals(c2)) {
+			System.out.println("E´a mesma conta...");
+		} else {
+			System.out.println("São contas diferentes...");
+		}
+			
+	}
+}

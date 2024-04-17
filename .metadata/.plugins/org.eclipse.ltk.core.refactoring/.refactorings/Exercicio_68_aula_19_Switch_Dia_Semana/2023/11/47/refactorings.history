@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_19.Media_Final&apos; to &apos;Dia_da_semana&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_68_aula_19_Switch_Dia_Semana&apos;&#x0D;&#x0A;- Original element: &apos;aula_19.Media_Final&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_19.Dia_da_semana&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Media_Final&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_19{Media_Final.java[Media_Final" matchStrategy="1" name="Dia_da_semana" qualified="false" references="true" similarDeclarations="false" stamp="1700413066968" textual="false" version="1.0"/>
+</session>

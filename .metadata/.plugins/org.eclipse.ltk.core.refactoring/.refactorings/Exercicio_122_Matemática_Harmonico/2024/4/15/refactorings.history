@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;calculo.Calculo&apos; to &apos;Harmonico&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_122_loteria_Matemática_Harmonico&apos;&#x0D;&#x0A;- Original element: &apos;calculo.Calculo&apos;&#x0D;&#x0A;- Renamed element: &apos;calculo.Harmonico&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Calculo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;calculo{Calculo.java[Calculo" matchStrategy="1" name="Harmonico" qualified="false" references="true" similarDeclarations="false" stamp="1712791568301" textual="false" version="1.0"/>
+</session>

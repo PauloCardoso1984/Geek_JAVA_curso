@@ -1,0 +1,35 @@
+package loteria;
+
+import java.util.HashSet;
+import java.util.Random;
+
+public class Loteria {
+
+	public static void main(String[] args) {
+
+		HashSet<Integer> numerosLotomania = new HashSet<>();
+		HashSet<Integer> numerosMegaSena = new HashSet<>();
+
+		Random random = new Random();
+
+		System.out.print("LOTOMANIA - ");
+		while (numerosLotomania.size() < 50) {
+			int numeroLotomania = random.nextInt(100);
+			numerosLotomania.add(numeroLotomania);
+		}
+		for (int numero : numerosLotomania) {
+			System.out.print(numero + " - ");
+		}
+		System.out.println();
+		System.out.println("-----------------------------------");
+
+		System.out.print("MEGA-SENA - ");
+		while (numerosMegaSena.size() < 6) {
+			int numeroMegaSena = random.nextInt(60);
+			numerosMegaSena.add(numeroMegaSena);
+		}
+		for (int numero : numerosMegaSena) {
+			System.out.print(numero + " - ");
+		}
+	}
+}

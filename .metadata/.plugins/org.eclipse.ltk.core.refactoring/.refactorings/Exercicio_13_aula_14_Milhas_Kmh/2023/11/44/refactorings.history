@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_14.Kmh_Ms&apos; to &apos;Ms_Kmh&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_13_aula_14_Milhas_Kmh&apos;&#x0D;&#x0A;- Original element: &apos;aula_14.Kmh_Ms&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_14.Ms_Kmh&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Kmh_Ms&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_14{Kmh_Ms.java[Kmh_Ms" matchStrategy="1" name="Ms_Kmh" qualified="false" references="true" similarDeclarations="false" stamp="1698947816837" textual="false" version="1.0"/>
+</session>

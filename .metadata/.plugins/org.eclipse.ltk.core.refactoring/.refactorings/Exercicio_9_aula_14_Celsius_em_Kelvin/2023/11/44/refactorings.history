@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_14.Kelvin_Celsius&apos; to &apos;Celsius_Kelvin&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_9_aula_14_Celsius_em_Kelvin&apos;&#x0D;&#x0A;- Original element: &apos;aula_14.Kelvin_Celsius&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_14.Celsius_Kelvin&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Kelvin_Celsius&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_14{Kelvin_Celsius.java[Kelvin_Celsius" matchStrategy="1" name="Celsius_Kelvin" qualified="false" references="true" similarDeclarations="false" stamp="1698946142786" textual="false" version="1.0"/>
+</session>

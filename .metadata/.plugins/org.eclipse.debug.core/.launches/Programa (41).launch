@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/Exercicio_105_aula_19_Ordem_Decrescente/src/aula_19/Programa.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="aula_19.Programa"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="Exercicio_39_aula_14_Divisão_de_premio"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Exercicio_105_aula_19_Ordem_Decrescente"/>
+</launchConfiguration>

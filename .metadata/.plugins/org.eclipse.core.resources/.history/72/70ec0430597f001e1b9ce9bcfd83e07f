@@ -1,0 +1,35 @@
+package aula_14;
+
+import java.util.Scanner;
+
+public class Inverter_Ordem {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Faça um programa que leia um número inteiro positico de 3 digitos (100 a 999). \n"
+				+ "Gere um outro numero de forma inversa. Solicite uma palavra e também inverta.");
+		System.out.println();
+		
+		System.out.println("Digite um número em 100 a 999: ");
+		int numero = sc.nextInt();
+		
+		System.out.println("Digite uma paralavra para ser invertida: ");
+		String palavra = sc.nextLine();
+		
+		// LISTA PARA VERIFICAR QUANTAS LETRAS TEM O NOME
+		char parcialpalavra[] = palavra.toCharArray();
+		
+		// LISTA PARA ARMAZENAR O VALOS ASCII
+		int a[] = new int[parcialpalavra.length];
+		
+		for (int i=0; i <= parcialpalavra.length - 1; i++) {
+			a[i] = parcialpalavra[i];
+			System.out.println("O valor invertido da palavra" + a[i] + " é" + parcialpalavra[i]);
+		}
+		
+		// MÉTODO PARA INVERTER A SEQUENCIA
+
+	}
+}

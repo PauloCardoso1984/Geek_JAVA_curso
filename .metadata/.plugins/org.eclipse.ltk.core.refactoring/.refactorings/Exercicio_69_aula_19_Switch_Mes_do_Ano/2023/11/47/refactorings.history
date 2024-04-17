@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_19.Dia_da_semana&apos; to &apos;Mes_do_Ano&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_69_aula_19_Switch_Mes_do_Ano&apos;&#x0D;&#x0A;- Original element: &apos;aula_19.Dia_da_semana&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_19.Mes_do_Ano&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Dia_da_semana&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_19{Dia_da_semana.java[Dia_da_semana" matchStrategy="1" name="Mes_do_Ano" qualified="false" references="true" similarDeclarations="false" stamp="1700498191724" textual="false" version="1.0"/>
+</session>

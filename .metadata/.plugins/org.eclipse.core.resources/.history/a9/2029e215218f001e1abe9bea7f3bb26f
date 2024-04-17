@@ -1,0 +1,83 @@
+package aula_19;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Programa {
+	
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Faça um programa que peça ao usuário para digitar valores e ignorar os negativos em \n"
+				+ "seguida mostre a soma dos mesmos.");
+		System.out.println();
+
+        double mediafor = 0, somawhile = 0, somadowhile = 0;
+        
+        double negativo = 0, media1 = 0, media2 = 0;
+        
+        double soma = 0, valor = 0;
+       
+     // UTILIZANDO O FOR
+    	System.out.println("Qntos números vai querer digitar: ");
+    	int w = sc.nextInt();
+        for (int i = 0; i < w; i++) {
+            System.out.print("Digite um valor: ");
+            valor = sc.nextInt();
+            
+            if (valor >= 0) {
+                soma += valor;
+                if (valor < 0) {
+                negativo += valor;
+            }
+        }
+        System.out.println("A soma dos valores positivos é: " + soma);
+        System.out.println("A soma dos valores negativos são: " + negativo);
+    }
+
+
+	}
+       
+        // UTILIZANDO O WHILE
+/*        int numerosDigitados = 0;
+        int soma = 0;
+      
+        System.out.println("Digite os valores (-1 para parar):");
+      
+        int valor = sc.nextInt();
+        while (valor != 0) {
+            if (valor > 0) {
+            	if (valor < 0) {
+            		
+            	}
+                numerosDigitados++;
+                soma += valor;
+            }
+          
+            valor = sc.nextInt();
+        }
+      
+        System.out.println("A soma dos valores positivos digitados é: " + soma);
+        System.out.println("Total de números digitados: " + numerosDigitados);
+    
+*/
+        
+   
+      
+      /* 
+        // UTILIZANDO O DO WHILE
+        System.out.print("Quantas notas irá digitar (DO WHILE): ");
+        int k = sc.nextInt();
+        int j = 1;
+        do {
+            System.out.print("Nota " + j + ": ");
+            int valor = sc.nextInt();
+            somadowhile += valor;
+            j++;
+            media2 = somadowhile / k;
+        } while (j <= k);
+        System.out.println("A média das notas é: " + media2);
+  */  
+}

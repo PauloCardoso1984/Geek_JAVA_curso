@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula16.OperadorTernario&apos; to &apos;Switch&apos;&#x0D;&#x0A;- Original project: &apos;Aula_05_18_Switch&apos;&#x0D;&#x0A;- Original element: &apos;aula16.OperadorTernario&apos;&#x0D;&#x0A;- Renamed element: &apos;aula16.Switch&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OperadorTernario&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula16{OperadorTernario.java[OperadorTernario" matchStrategy="1" name="Switch" qualified="false" references="true" similarDeclarations="false" stamp="1700175982044" textual="false" version="1.0"/>
+</session>

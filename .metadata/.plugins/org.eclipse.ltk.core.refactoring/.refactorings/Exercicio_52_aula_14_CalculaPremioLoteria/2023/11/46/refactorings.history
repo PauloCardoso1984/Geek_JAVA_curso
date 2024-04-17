@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_14.CalcularDistancia&apos; to &apos;PremioLoteria&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_52_aula_14_CalculaPremioLoteria&apos;&#x0D;&#x0A;- Original element: &apos;aula_14.CalcularDistancia&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_14.PremioLoteria&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CalcularDistancia&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_14{CalcularDistancia.java[CalcularDistancia" matchStrategy="1" name="PremioLoteria" qualified="false" references="true" similarDeclarations="false" stamp="1700169426243" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_19.CompararNumero&apos; to &apos;PositivoENegativo&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_55_aula_19_LerNumeroPositivoeNegativo&apos;&#x0D;&#x0A;- Original element: &apos;aula_19.CompararNumero&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_19.PositivoENegativo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CompararNumero&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_19{CompararNumero.java[CompararNumero" matchStrategy="1" name="PositivoENegativo" qualified="false" references="true" similarDeclarations="false" stamp="1700309659905" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_14.Jarbas_Metros&apos; to &apos;Metros_Jarbas&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_23_aula_14_Metros_Jardas&apos;&#x0D;&#x0A;- Original element: &apos;aula_14.Jarbas_Metros&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_14.Metros_Jarbas&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Jarbas_Metros&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_14{Jarbas_Metros.java[Jarbas_Metros" matchStrategy="1" name="Metros_Jarbas" qualified="false" references="true" similarDeclarations="false" stamp="1699024252846" textual="false" version="1.0"/>
+</session>

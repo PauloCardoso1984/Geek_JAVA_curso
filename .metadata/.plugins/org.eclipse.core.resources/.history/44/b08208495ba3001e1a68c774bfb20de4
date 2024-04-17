@@ -1,0 +1,19 @@
+package object;
+
+public class Caixa {
+	
+	private Conta[] contas;
+	private int posicaoLivre;
+	
+	public Caixa() {
+		contas = new Conta[100]; // até 100 contas
+		posicaoLivre = 0;
+	}
+	
+	// MÉTODOS AUXILIARES
+	public void adicionar(Conta nova) {
+		this.contas[this.posicaoLivre] = nova;
+		this.posicaoLivre ++;
+	}
+
+}
