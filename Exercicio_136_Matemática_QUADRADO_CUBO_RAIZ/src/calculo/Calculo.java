@@ -5,36 +5,55 @@ import java.util.Scanner;
 public class Calculo {
 
 	public static void main(String[] args) {
-		System.out.println("Faça um programa que leia um conjunto não determinado de valores, um de cada "
-				+ "vez, e escreva para cada um dos valores lidos, o quadrado, o cubo e a raiz quadrada. "
-				+ "Finale a entrada de dados com um valor negativo ou zero.");
+		System.out.println("Faça um programa que leia um número indeterminado de idades de indivíduos "
+				+ "(pare quando for informada a idade 0 ou negativa), e calcule a média desse grupo. "
+				+ "E informe quantas pessoas foram adicionadas e de qual sexo (masculino ou feminino)");
 		System.out.println();
 
-		Scanner sc = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 
-//		System.out.println("Para sair digite um valor negativo ou zero");
-//		System.out.print("Digite os valores: ");
+		int idade;
+		int totalIdades = 0;
+		int quantidadeIndividuos = 0;
+		int totalHomens = 0;
+		int totalMulheres = 0;
 
-		while (true) {
-			System.out.println("Para sair digite um valor negativo ou zero");
-			System.out.print("Digite os valores: ");
-			double numero = sc.nextDouble();
+		do {
+			System.out.print("Digite as idades dos indivíduos (para parar, digite 0 ou um número negativo): ");
 
-			if (numero <= 0) {
-				System.out.println("PROGRAMA FINALIZADO..."); 
-				break;
+			idade = input.nextInt();
+
+			if (idade > 0) {
+				totalIdades += idade;
+				quantidadeIndividuos++;
+
+				System.out.print("Digite o sexo do indivíduo (M para masculino, F para feminino): ");
+				char sexo = input.next().charAt(0);
+
+				if (sexo == 'M') {
+					totalHomens++;
+					System.out.println();
+				} else if (sexo == 'F') {
+					totalMulheres++;
+					System.out.println();
+				} else {
+					System.out.println("Sexo inválido. Digite M para masculino ou F para feminino.");
+				}
 			}
 
-			double quadrado = Math.pow(numero, 2);
-			double cubo = Math.pow(numero, 3);
-			double raizQuadrada = Math.sqrt(numero);
+		} while (idade > 0);
 
-			System.out.println("Número: 	" + numero);
-			System.out.println("Quadrado: 	" + quadrado);
-			System.out.println("Cubo: 		" + cubo);
-			System.out.println("Raiz quadrada:	" + raizQuadrada);
+		if (quantidadeIndividuos == 0) {
+			System.out.println("Nenhum indivíduo foi mencionado.");
+		} else {
 			System.out.println();
+			double media = (double) totalIdades / quantidadeIndividuos;
+			System.out.println("Média de idade do grupo: " + media);
+			System.out.println("Total de indivíduos: " + quantidadeIndividuos);
+			System.out.println("Total de homens: " + totalHomens);
+			System.out.println("Total de mulheres: " + totalMulheres);
 		}
-		sc.close();
+
+		input.close();
 	}
 }
