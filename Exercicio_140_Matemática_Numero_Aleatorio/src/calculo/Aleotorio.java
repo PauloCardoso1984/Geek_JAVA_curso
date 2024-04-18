@@ -21,7 +21,6 @@ public class Aleotorio {
         
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println(numeroGerado);
         System.out.println("Bem-vindo ao Jogo de Adivinhação! Tente adivinhar o número gerado de 1 a 100.");
 
         do {
