@@ -1,7 +1,5 @@
 package aula16;
 
-import java.util.Scanner;
-
 public class OperadorTernario {
 	public static void main(String[] args) {
 		
@@ -17,6 +15,7 @@ public class OperadorTernario {
 		}
 */	
 	// OPERADOR TERNÁRIO
+	// vai receber valor, se for maior que 0 e diferente de 7
 	numero = (valor > 0) ? valor : 7;
 	
 	System.out.println(numero);
