@@ -17,9 +17,9 @@ public class For {
 		Scanner sc = new Scanner(System.in);
 
 		// Variavél de ; condição de parada; forma de encremento
-		for (int i = 0; i < 5; i++) {
+		for (int i = 1; i <= 5; i++) {
 			
-			System.out.print("Informe seu nome: ");
+			System.out.print(i + " - Informe seu nome: ");
 			nome = sc.nextLine();
 
 			System.out.print("Qual sua idade: ");
