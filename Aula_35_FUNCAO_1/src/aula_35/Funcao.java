@@ -44,7 +44,7 @@ public class Funcao {
 		frutas = new String[quantidade];
 		
 		// For para receber os dados digitados
-		for (int i = 0; i < quantidade; i++) {
+		for (int i = 0; i < quantidade; i--) {
 			System.out.print("Informe a " + (i + 1) + " fruta: ");
 			// Alimentando o vetor com os nomes digitados
 			frutas[i] = teclado.nextLine();

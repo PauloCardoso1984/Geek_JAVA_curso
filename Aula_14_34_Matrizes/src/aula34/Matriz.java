@@ -1,4 +1,4 @@
-//	MATRIZES PARTE 1
+//	MATRIZES PARTE 1 e 2
 // Arrays, vetores, MATRIZES multi-dimensionais
 /*	
  * Matriz [3][3] → 03 linhas e 03 colunas.
@@ -43,9 +43,11 @@ public class Matriz {
 		numero[0][0] = 1;
 		numero[0][1] = 3;
 		numero[0][2] = 5;
+		
 		numero[1][0] = 7;
 		numero[1][1] = 9;
 		numero[1][2] = 11;
+		
 		numero[2][0] = 13;
 		numero[2][1] = 15;
 		numero[2][2] = 17;
@@ -60,8 +62,14 @@ public class Matriz {
 				System.out.println(numero[i][j]);
 			}
 		}
+		
 		System.out.println();
-
+		for (int i = 0; i < mais_numeros.length; i++) {
+			for (int j = 0; j < mais_numeros.length; j++) {
+				System.out.println(mais_numeros[i][j]);
+			}
+		}
+		System.out.println();
 		
 		// A denominação numero[i].length é que a matriz pode não ser quadrada
 		for (int i = 0; i < numero.length; i++) {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/Aula_34_Matrizes/src/aula34/Matriz.java"/>
+        <listEntry value="/Aula_14_34_Matrizes/src/aula34/Matriz.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -9,5 +9,5 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="aula34.Matriz"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="Aula_03_16_If_else"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Aula_34_Matrizes"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Aula_14_34_Matrizes"/>
 </launchConfiguration>
