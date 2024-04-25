@@ -25,7 +25,7 @@ public class OperacaoMatematica {
 		// Divisão 2
 		res2 = (float)num2 / (float)num1;
 		System.out.println("A divisão entre os números é: " + res2);
-		// Divisão 3 - MÓDULO
+		// Divisão 3 - MÓDULO - Trabalha com o resto da divisão
 		res2 = num2 % num1;
 		System.out.println("O módulo entre os números é: " + res2);
 		
@@ -37,6 +37,6 @@ public class OperacaoMatematica {
 		res2 = (float) Math.sqrt(num1);
 		res3 = (float) Math.sqrt(num2);
 		System.out.println("A raiz quadrada é: " + res2);
-		System.out.println("A raiz quadrada é: " + res3);
+		System.out.println("A raiz quadrada é: " + res3);		
 	}
 }

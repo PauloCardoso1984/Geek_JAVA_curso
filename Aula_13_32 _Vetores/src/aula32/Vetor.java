@@ -16,8 +16,12 @@
 
 package aula32;
 
+import java.util.Scanner;
+
 public class Vetor {
 	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
 
 		// Declarando o vetor
 		int vetor[];
@@ -37,15 +41,15 @@ public class Vetor {
 		// Exemplos
 		String frutas[] = { "Manga", "Uva", "Banana" };
 
-		System.out.println(frutas.length); // Mostra o tamanho do vetor
+		System.out.println("Quantidade de frutas = " + frutas.length); // Mostra o tamanho do vetor
 
-		for (String i : frutas) { // imprimirá os elementos
+		for (String i : frutas) { // Imprimirá os elementos
 			System.out.println(i);
 		}		
 		System.out.println();
 		
-        for (int i = 0; i < frutas.length; i++) { // imprimirá os elementos
-            System.out.print(frutas[i] + " - ");
+        for (int i = 0; i < frutas.length; i++) { // Imprimirá os elementos
+            System.out.print(frutas[i] + " ");
         }
 		System.out.println();
 		System.out.println();
@@ -59,22 +63,23 @@ public class Vetor {
 			numeros1[i] = i + 1;
 		}
 		System.out.println("Primeiro vetor: " + numeros1[0]); // primeiro elemento
-		System.out.println("ùltimmo vetor: " + numeros1[9]); // ultimo elemento
+		System.out.println("Últimmo vetor: " + numeros1[9]); // ultimo elemento
 		System.out.println("Tamanho do vetor: " + numeros1.length);
 		System.out.println();
 
 		// USANDO A ESTRUTURA FOR EACH
-		// para cada inteiro imprima o i
+		// Para cada inteiro imprima o i
 		for (int i : numeros1) {
-			System.out.println(i);
+			System.out.print(i + " ");
 		}
 		System.out.println();
-
+		System.out.println();
+		
 		// Biblioteca Match e Radom para numeros aleatórios
 		for (int i = 0; i < numeros1.length; i++) {
 			numeros1[i] = (int) Math.round(Math.random());
 		}
-		System.out.println(numeros1[1]);
+		System.out.println(numeros1[2]);
 		System.out.println();
 
 		// Math rondom gera um número entre 0 e 1 x 100
@@ -104,5 +109,16 @@ public class Vetor {
 		System.out.println(Math.round(Math.random() * 100));
 		System.out.println(Math.round(Math.random() * 100));
 		System.out.println();
+		
+		int numeros3[] = new int[11];
+		int a;
+		System.out.print("Qual tabuada você deseja: ");
+		a = sc.nextInt();
+		
+		for (int i = 0; i < numeros3.length; i++ ) {
+			numeros3[i] = i * a;
+			System.out.print(numeros3[i] + " ");
+		}
+		sc.close();
 	}
 }
