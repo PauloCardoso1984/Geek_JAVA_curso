@@ -1,4 +1,4 @@
-package aula_36;
+package aula_38;
 
 public class Funcao {
 

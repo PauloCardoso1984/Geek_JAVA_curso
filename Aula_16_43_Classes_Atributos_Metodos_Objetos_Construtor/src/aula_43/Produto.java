@@ -18,7 +18,7 @@
  * */
 
 /* METODOS
- * - Podemos entender os métodos como a ação que é realziada por um objeto da classe;
+ * - Podemos entender os métodos como a ação que é realizada por um objeto da classe;
  * - Os métodos são comportamentos dos objetos da classe;
  * 
  * - Mesmos requisitos para funções:
@@ -38,14 +38,25 @@ public class Produto {
 	float preco;
 	float desconto;
 	
+	// CONSTRUTOR VAZIO
+	public Produto() {
+	}
+	
+	// CONSTUTOR COM ARGUMENTOS
+	public Produto(String nome, float preco, float desconto) {
+		super();
+		this.nome = nome;
+		this.preco = preco;
+		this.desconto = desconto;
+	}
+
 	// METODO
 	// Preço para aumentar o produto em 10%
 	void aumentar_preco() {
-		this.preco = this.preco + 10;
+		this.preco = this.preco * 10 / 100;
 	}
-
 	@Override
 	public String toString() {
-		return "Produto = " + nome + ", preco R$ = " + preco + ", desconto = " + desconto + "%";
+		return "Produto = " + nome + "\nPreco R$ = " + preco + " \nDesconto = " + desconto + "%";
 	}	
 }

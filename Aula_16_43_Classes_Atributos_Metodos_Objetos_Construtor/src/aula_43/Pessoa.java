@@ -18,8 +18,17 @@ public class Pessoa {
 		this.ano_nacimento = ano_nacimento;
 	}
 	
+	// METODO 1
 	@Override
 	public String toString() {
-		return "Nome = " + nome + ", email = " + email + ", Ano de nacimento = " + ano_nacimento ;
+		return "Nome = " + nome + " \nE-mail = " + email + " \nAno de nacimento = " + ano_nacimento + " \nIdade = " + (2024 - ano_nacimento) + " anos" ;
 	}
+	
+	// METODO 2
+	void imprime_informacoes() {
+		System.out.println("Nome: " + this.nome);
+		System.out.println("E-mail: " + this.email);
+		System.out.println("Ano de nascimento: " + this.ano_nacimento);
+		System.out.println("Idade : " + (2024 - ano_nacimento));
+	}	
 }
