@@ -6,10 +6,6 @@ public class Conta {
 	private float limite;
 	private Cliente cliente; // Esse atributo só é possivel porque existe a classe cliente
 	
-	// CONSTRUTOR VAZIO
-	public Conta() {
-	}
-
 	// CONSTRUTOR COM ARGUMENTOS
 	public Conta(int numero, float saldo, float limite, Cliente cliente) {
 		this.numero = numero;
@@ -44,6 +40,7 @@ public class Conta {
 	}
 
 	// MÉTODOS
+	
 	// SAQUE
 	void sacar(float valor) {
 		// REGRA DE NEGÓCIO
@@ -59,9 +56,10 @@ public class Conta {
 			val_ret = this.limite + val_ret;
 			this.limite = val_ret;
 		}else {	
-			System.out.println("Saldo insuficiente");
+			System.out.println("Saldo insuficiente...");
 		}
 	}
+	
 	// DEPÓSITO
 	void depositar(float valor) {
 		this.saldo = this.saldo + valor;

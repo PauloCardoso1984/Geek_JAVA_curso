@@ -3,10 +3,6 @@ package aula_53;
 public class Cliente {
 	String nome;
 	String endereço;
-	
-	// CONSTRUTOR VAZIO
-	public Cliente() {
-	}
 
 	// CONSTRUTOR COM ARGUMENTOS
 	public Cliente(String nome, String endereço) {
