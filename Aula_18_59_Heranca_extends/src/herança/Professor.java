@@ -1,6 +1,6 @@
 package herança;
 
-// HERDANDO DA CLASSE MAE - PESSOA
+// HERDANDO DA CLASSE PAI OU MAE - PESSOA
 public class Professor extends Pessoa {
 	private String leciona_materia;
 

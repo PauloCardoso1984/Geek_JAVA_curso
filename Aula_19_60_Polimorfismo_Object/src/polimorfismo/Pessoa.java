@@ -30,8 +30,6 @@ public class Pessoa {
 
 	@Override
 	public String toString() {
-		return "Nome = " + nome + ", Ano de Nascimento = " + ano_nascimento;
-	}	
-	
-	
+		return "Nome = " + nome + "\nAno de Nascimento = " + ano_nascimento;
+	}		
 }

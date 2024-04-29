@@ -1,8 +1,5 @@
 package polimorfismo;
 
-/*HERANÇA - evita repetição de código 
- * facilita a manutenção dos programas 
-*/
 // extends SERÁ A EXTENÇÃO DA CLASSE PESSOA
 public class Aluno extends Pessoa{	
 	private String ra;
@@ -24,7 +21,7 @@ public class Aluno extends Pessoa{
 
 	@Override
 	public String toString() {
-		// BUSCANDO O toString da classe mãe
-		return super.toString() + " RA = " + ra;
+		// BUSCANDO O super.toString() da classe mãe
+		return super.toString() + " \nRA = " + ra;
 	} 	
 }

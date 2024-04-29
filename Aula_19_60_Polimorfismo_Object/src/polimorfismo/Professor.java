@@ -21,6 +21,6 @@ public class Professor extends Pessoa {
 	@Override
 	public String toString() {
 		// BUSCANDO O toString da classe mãe
-		return super.toString() + " - Professor [matéria] = " + matricula;
+		return super.toString() + "\nProfessor [Leciona] = " +  matricula;
 	}	
 }
