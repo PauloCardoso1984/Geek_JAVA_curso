@@ -11,10 +11,10 @@ public class Programa {
 
 		Ventilador vent = new Ventilador();
 		
-		System.out.println("A marca do ventilador é = " + vent.MARCA);
+		System.out.println("A marca do ventilador é : " + IEletronico.MARCA);
 		
-		vent.desligar(); // Não deve imprimir a mensagem		
-		vent.ligar(); // Deve imprimir a mensagem		
-		vent.desligar(); // Deve imprimir a mensagem
+		vent.desligar(); 	// NÃO deve imprimir a mensagem		
+		vent.ligar(); 		// Deve imprimir a mensagem		
+		vent.desligar(); 	// Deve imprimir a mensagem
 	}
 }
