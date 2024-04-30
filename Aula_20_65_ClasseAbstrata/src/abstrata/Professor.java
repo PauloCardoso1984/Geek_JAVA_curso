@@ -14,6 +14,7 @@ public class Professor extends Pessoa {
 	public String getMatricula() {
 		return matricula;
 	}
+
 	public void setMatricula(String matricula) {
 		this.matricula = matricula;
 	}
@@ -21,12 +22,12 @@ public class Professor extends Pessoa {
 	@Override
 	public String toString() {
 		// BUSCANDO O toString da classe mãe
-		return super.toString() + " - Professor [matéria] = " + matricula;
+		return super.toString() + "\nProfessor [matéria] = " + matricula;
 	}
 
 	// VINDO DA CLASSE PESSOA - ABSTRATA
 	@Override
 	public void mensagem(String texto) {
-		System.out.println(texto);		
-	} 
+		System.out.println(texto);
+	}
 }
