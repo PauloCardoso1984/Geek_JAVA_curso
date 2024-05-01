@@ -16,7 +16,7 @@ public class Conta {
 		// NÚMERO SERÁ INCREMENTADO AUTOMATICAMENTE
 		Conta.contador = Conta.contador + 1;
 	}
-	
+		
 	// GET e SET
 	public int getNumero() {
 		return numero;

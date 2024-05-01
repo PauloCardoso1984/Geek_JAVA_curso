@@ -20,7 +20,21 @@ public class Programa {
 		System.out.println(c3);
 		
 		System.out.println(Conta.contador);
+		// COLOCANDO UM NÚMERO DE CONTA 
+		// FORMA INCORRETA DE INSTÂNCIA
 		Conta.contador = 42;
+		System.out.println(Conta.contador);
+		System.out.println(Conta.contador);
+		System.out.println(Conta.contador + "\n");
+		
+		// PARA MANTER ALTERADO É NECESSÁRIO INSTANCIAR O CLIENTE TAMBEM
+		Conta c4 = new Conta("Reginaldo Paulo");
+		System.out.println(c4);
+		
+		Conta c5 = new Conta("Regis Cardoso");
+		System.out.println(c5);
+		
+		// FORMA INCORRETA DE INSTÂNCIA
 		System.out.println(Conta.contador);
 	}
 }
