@@ -14,8 +14,9 @@ public class Programa {
 		System.out.print("Informe o segundo número para divisão: ");
 		int n2 = tc.nextInt();
 		
-		float result = n1 / n2;
+		float result = (float) n1 / (float) n2;
 		
+		while (n1 != 0 && n2 !=0)
 		try {
 			System.out.print("A divisão do 1º numero " + n1 + ", pelo 2º numero " + n2 + " é = " + result);
 		} catch (ArithmeticException e) {
