@@ -1,4 +1,4 @@
-package excecao;
+package executavel;
 
 public class Conta {
 	private int numero;
@@ -61,7 +61,7 @@ public class Conta {
 			System.out.println("Saque realizado com sucesso...");
 			System.out.println();
 		} else {
-			System.out.println("Saldo insuficiente");
+			System.out.println("Saldo insuficiente...");
 		}
 	}
 
