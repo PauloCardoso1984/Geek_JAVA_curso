@@ -22,7 +22,7 @@ public class Programa {
 		}
 		tc.close();
 	}
-	// CRIANDO UMA FUNAÇÕ QUE AVISA QUE TEMM POSSIBILIDADE DE LANÇAR EXCESSAO
+	// CRIANDO UMA FUNAÇÃO QUE AVISA QUE TEMM POSSIBILIDADE DE LANÇAR EXCESSAO
 	// DO TIPO EXCEPTION
 	public static int divisao(int n1, int n2) throws Exception {
 		return n1 / n2;
