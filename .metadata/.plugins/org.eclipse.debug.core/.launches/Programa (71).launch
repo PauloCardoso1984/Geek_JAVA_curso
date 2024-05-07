@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/Aula_86_Math_calculos/src/math/Programa.java"/>
+        <listEntry value="/Aula_31_86_Math_CALCULOS/src/math/Programa.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -9,5 +9,5 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="math.Programa"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="Aula_58_Heranca"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Aula_86_Math_calculos"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Aula_31_86_Math_CALCULOS"/>
 </launchConfiguration>

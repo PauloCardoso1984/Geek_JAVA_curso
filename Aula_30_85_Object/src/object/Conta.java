@@ -77,7 +77,7 @@ public class Conta {
 	}
 
 	// Equals 
-
+	// Instanceof -> verifica se o objeto é instância de outro
 	@Override
 	public boolean equals(Object obj) {
 		if (!(obj instanceof Conta)) {
