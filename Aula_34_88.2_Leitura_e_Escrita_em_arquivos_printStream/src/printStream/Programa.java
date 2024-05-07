@@ -21,7 +21,7 @@ public class Programa {
 			for (int i = 0; i < 5; i++) {
 				System.out.print("Escreva alguma mensagem #" + (i + 1) + ": ");
 				String msg = teclado.nextLine();
-				escrever.println(msg);
+				escrever.println(msg); 
 			}
 			escrever.close();
 		} catch (FileNotFoundException e) { 
