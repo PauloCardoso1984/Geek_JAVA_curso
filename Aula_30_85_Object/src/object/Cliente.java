@@ -5,7 +5,6 @@ import java.util.Objects;
 // Realizar a comparação pelo método da interface Comparable
 public class Cliente {
 
-
 	private String nome;
 	private String endereço;
 	
@@ -20,12 +19,13 @@ public class Cliente {
 		return "Cliente = " + nome + ", endereço = " + endereço;
 	}
 
-	// COMPARANDO O CLIENTE PELO NOME
+	// COMPARANDO O CLIENTE PELO NOME hashCode / equals
 	@Override
 	public int hashCode() {
 		return Objects.hash(nome);
 	}
 
+	// COMPARAÇÃO PELO NOME
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

@@ -64,7 +64,10 @@ public class Conta {
 			System.out.println("Saldo insuficiente...");
 		}
 	}
-
+	/**
+	 * Método para realizar depósito
+	 * @param valor a ser depositado
+	 */
 	// DEPÓSITO
 	void depositar(float valor) {
 		this.saldo = this.saldo + valor;

@@ -1,7 +1,5 @@
 package object;
 
-import java.util.Objects;
-
 public class Conta {
 	private int numero;
 	private float saldo;
@@ -90,5 +88,3 @@ public class Conta {
 		}
 	}
 }
-	
-

@@ -1,6 +1,6 @@
 package object;
 
-// CAIXA DE OBJETOS GENÉRICO POR CONTA DO Object
+// CLASSE DE OBJETOS GENÉRICO POR CONTA DO Object
 public class Caixa {
 	
 	private Object[] objetos;

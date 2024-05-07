@@ -147,6 +147,8 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\Paulo\Desktop\Geek_JAVA_Curso_\Executavel_29_81.jar"/>
+			<item value="C:\Users\Paulo\Desktop\Java-Geek_University\Executavel_29_81.jar"/>
 			<item value="C:\Users\Paulo\Desktop\prc.jar"/>
 			<item value="C:\Users\Paulo\Desktop\Paulo.jar"/>
 		</list>
