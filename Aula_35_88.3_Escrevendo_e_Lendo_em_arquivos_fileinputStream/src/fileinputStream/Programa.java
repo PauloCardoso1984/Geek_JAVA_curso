@@ -19,7 +19,7 @@ public class Programa {
 			while (ler1.hasNextLine()) {
 				String linha = ler1.nextLine();
 				System.out.println(linha);
-			}
+			} 
 			System.out.println();
 
 			while (ler2.hasNextLine()) {
