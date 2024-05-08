@@ -16,8 +16,7 @@ import java.util.Scanner;
  - Listas
  - Aceitam repetiçaõ de valores
  - Possuem tamanho "infinito" (até o maximo da memória)
- - Podemos adicionar valores de qualquer tipo
- 
+ - Podemos adicionar valores de qualquer tipo 
  */
 
 public class Programa {
@@ -70,8 +69,14 @@ public class Programa {
 		System.out.println("Imprimir apenas o solicitado -> " + nomes.get(2));
 		System.out.println();
 
-		// Remover um nome da lista
+		// Remover um nome da lista pela posição
 		nomes.remove(3);
+		
+		// Remover um nome da lista pelo nome
+		nomes.remove("Sistemas");
+		
+		// Adicionar um nome na lista
+		nomes.add("Corinthians");
 		
 		// Imprimirá o tamanho da Lista (alterada)
 		System.out.println("Imprimirá o tamanho da Lista .size -> " + nomes.size());
@@ -82,7 +87,6 @@ public class Programa {
 		System.out.println();
 		
 		// Colocar em ordem alfabética utilizando -> Collections.sort();
-		
 		Collections.sort(nomes);
 		
 		System.out.println("Em ordem alfabética.");
