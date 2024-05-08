@@ -12,17 +12,18 @@ import java.util.Set;
  elementos utilizando o conceito de chave/valor.
  
  - Mapas são conhecido como representassem 3 coleções:
- - coleção de chaves;
- - coleção de valores;
- - coleção de associações.
+ - coleção de chaves; 		←
+ - coleção de valores; 		←
+ - coleção de associações. 	←
  
  */
 public class Programa {
 	public static void main(String[] args) {
 		Scanner tc = new Scanner(System.in);
-
+		// CHAVE ↓  VALOR ↓
 		Map<Integer, String> pessoas = new HashMap<Integer, String>();
 
+		// PUT MÉTODO DE ADICIONAR
 		pessoas.put(25, "Paulo Cardoso");
 		pessoas.put(31, "Cardoso Paulo");
 		pessoas.put(15, "Cardoso Reginaldo");
@@ -31,25 +32,25 @@ public class Programa {
 		// Coleção de chaves
 		System.out.println("Coleção de chaves: ");
 		System.out.println(pessoas.keySet());
-		System.out.println();
+		System.out.println("¨¨¨¨¨¨¨¨¨¨");
 
 		// Coleção de valores
 		System.out.println("Coleção de valores: ");
 		System.out.println(pessoas.values());
-		System.out.println();
+		System.out.println("@@@@@@@@@@");
 
 		// Coleção de associações
 		System.out.println("Coleção de associações: ");
 		System.out.println(pessoas.entrySet());
 		System.out.println(pessoas);
-		System.out.println();
+		System.out.println("*-*-*-*-*-");
 
 		// Iterar na coleção de chaves (nome)
 		System.out.println("Imprimirá as pessoas:");
 		pessoas.keySet().forEach(nome -> {
 			System.out.println(pessoas.get(nome));
 		});
-		System.out.println();
+		System.out.println("..........");
 
 		// Iterar na coleção de chaves (idade)
 		System.out.println("Iterar na coleção de chaves: ");
@@ -57,7 +58,7 @@ public class Programa {
 		for (Integer idade : chaves) {
 			System.out.println(idade);
 		}
-		System.out.println();
+		System.out.println("---------");
 		
 		// Iterar na coleção de valores 
 		// Forma 1
@@ -65,14 +66,19 @@ public class Programa {
 		for (String nome : valores) {
 			System.out.println(nome);
 		}
-		System.out.println();
+		System.out.println("=========");
 		
 		// Forma 2
+		System.out.println("Chave (idade): " + pessoas.keySet());
+		System.out.println("=========");
+		
+		// Forma 3
 		pessoas.values().forEach(nome -> {
 			System.out.println(nome);
 		});	
-		System.out.println();
-		
+		System.out.println("//////////");
+		System.out.println("Valores (nomes): " + pessoas.values());
+		System.out.println("**********");
 		
 		// Iterar a coleção de associações
 		// Forma 1
@@ -80,7 +86,9 @@ public class Programa {
 		for (Entry<Integer, String> associacao : associacoes) {
 			System.out.println(associacao.getKey() + " - " + associacao.getValue());
 		}
-		System.out.println();
+		System.out.println("**********");
+		System.out.println("Informará todas as informações (associação): " + pessoas.entrySet());
+		System.out.println("=========");
 		
 		// Forma 2
 		pessoas.entrySet().forEach(associacao -> {
