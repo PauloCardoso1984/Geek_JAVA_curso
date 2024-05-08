@@ -16,7 +16,7 @@ import java.util.Set;
  - Não aceitam valores repetidos (aceitam mas não incluem).
  - A ordem de inserção não é respeitada e faz uma semi-ordenação.
  - Não aceita ordenação.
- - Não possue índice (nome.get(algumaCoisa)).
+ - Não possui índice (nome.get(algumaCoisa)).
  
  */
 public class Programa {
@@ -29,28 +29,28 @@ public class Programa {
 		Set<String> nomes = new HashSet<String>();
 
 		// Colocar 5 nomes na lista
-		for (int i=0; i < 5; i++) {
-			System.out.print("Informe o " + ( i + 1) + "/5 nome: ");
+		for (int i = 0; i < 5; i++) {
+			System.out.print("Informe o " + (i + 1) + "/5 nome: ");
 			String nome = tc.nextLine();
 			res = nomes.add(nome);
-			if (! res) {
-				System.out.println("O nome já contém na lista, insira outro nome... ");				
-				i --; 	// Não será incremmentado quando for igual
+			if (!res) {
+				System.out.println("O nome já contém na lista, insira outro nome... ");
+				i--; // Não será incremmentado quando for igual
 				System.out.println();
 			}
 		}
 		System.out.println();
-		
+
 		// Verificar o tamanho do conjunto
 		System.out.println("No conjunto nomes temos " + nomes.size() + " elementos");
 		System.out.println();
-		
+
 		System.out.println("Impressão dos elementos um abaixo do outro:");
 		for (String nome : nomes) {
 			System.out.println(nome);
 		}
 		System.out.println();
-		
+
 		System.out.println("Impressão um a frente do outro: ");
 		System.out.println(nomes);
 
