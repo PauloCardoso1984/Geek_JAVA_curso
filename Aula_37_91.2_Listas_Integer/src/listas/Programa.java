@@ -63,17 +63,17 @@ public class Programa {
 		System.out.println("Imprimir um a frente do outro ordenado = " + numeros);
 		System.out.println();
 
-		// DECRESCENTE		
+		// DECRESCENTE === ATENÇÃO ===
 		System.out.println("Imprimir todos um abaixo do outro ordenado decrecente.");
 		for (int i = numeros.size() - 1; i >= 0; i--) {
 			System.out.println(numeros.get(i));
 		}
 		System.out.println();
-		
+
 		System.out.println("Imprimir um a frente do outro ordenado decrecente.");
 		for (int i = numeros.size() - 1; i >= 0; i--) {
 			System.out.print(numeros.get(i) + " - ");
-		}		
+		}
 		teclado.close();
 	}
 }
