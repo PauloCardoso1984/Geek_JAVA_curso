@@ -13,7 +13,7 @@ import java.util.Set;
  pouco diferente a performace é melhor em conjuntos do que nas Listas.
  
  Características dos conjuntos:
- - Não aceitam valores repetidos (aceitam mas não incluem).
+ - Não aceitam valores repetidos (aceita mas não incluem).
  - A ordem de inserção não é respeitada e faz uma semi-ordenação.
  - Não aceita ordenação.
  - Não possui índice (nome.get(algumaCoisa)).
