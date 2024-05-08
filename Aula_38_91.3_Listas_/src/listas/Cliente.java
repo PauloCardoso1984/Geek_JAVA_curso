@@ -2,26 +2,26 @@ package listas;
 
 import java.util.Objects;
 
-public class Cliente implements Comparable {
+public class Cliente implements Comparable<Object> {
 
 	private int cpf;
 	private String nome;
-	private String endereço;
-
+	private String endereco;
+	
 	// CONSTRUTOR VAZIO
 	public Cliente() {
 	}
 
 	// CONSTRUTOR COM ARGUMENTOS
-	public Cliente(int cpf, String nome, String endereço) {
+	public Cliente(int cpf, String nome, String endereco) {
 		this.cpf = cpf;
 		this.nome = nome;
-		this.endereço = endereço;
+		this.endereco = endereco;
 	}
 
 	@Override
 	public String toString() {
-		return "Cliente = " + nome;
+		return "Cliente: " + nome + " - Endereço: " + endereco;
 	}
 
 	// COMPARANDO O CLIENTE PELO NOME
@@ -44,7 +44,7 @@ public class Cliente implements Comparable {
 
 	@Override
 	public int compareTo(Object outro) {
-		Cliente aux = (Cliente) outro;
+		Cliente aux = (Cliente) outro; // CRIADO UMA VARIÁVEL AUXILIAR
 		if (this.cpf < aux.cpf) {
 			return -1;
 		} else if (this.cpf > aux.cpf) {
