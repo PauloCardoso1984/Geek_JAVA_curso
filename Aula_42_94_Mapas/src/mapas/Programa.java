@@ -4,7 +4,6 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Scanner;
 import java.util.Set;
 
 /* Mapas -> Map
@@ -19,8 +18,8 @@ import java.util.Set;
  */
 public class Programa {
 	public static void main(String[] args) {
-		Scanner tc = new Scanner(System.in);
-		// CHAVE ↓  VALOR ↓
+
+		// CHAVE ↓ VALOR ↓
 		Map<Integer, String> pessoas = new HashMap<Integer, String>();
 
 		// PUT MÉTODO DE ADICIONAR
@@ -59,27 +58,27 @@ public class Programa {
 			System.out.println(idade);
 		}
 		System.out.println("---------");
-		
-		// Iterar na coleção de valores 
+
+		// Iterar na coleção de valores
 		// Forma 1
 		Collection<String> valores = pessoas.values();
 		for (String nome : valores) {
 			System.out.println(nome);
 		}
 		System.out.println("=========");
-		
+
 		// Forma 2
 		System.out.println("Chave (idade): " + pessoas.keySet());
 		System.out.println("=========");
-		
+
 		// Forma 3
 		pessoas.values().forEach(nome -> {
 			System.out.println(nome);
-		});	
+		});
 		System.out.println("//////////");
 		System.out.println("Valores (nomes): " + pessoas.values());
 		System.out.println("**********");
-		
+
 		// Iterar a coleção de associações
 		// Forma 1
 		Set<Entry<Integer, String>> associacoes = pessoas.entrySet();
@@ -89,12 +88,10 @@ public class Programa {
 		System.out.println("**********");
 		System.out.println("Informará todas as informações (associação): " + pessoas.entrySet());
 		System.out.println("=========");
-		
+
 		// Forma 2
 		pessoas.entrySet().forEach(associacao -> {
 			System.out.println(associacao.getKey() + " - " + associacao.getValue());
 		});
-			
-		tc.close();
 	}
 }

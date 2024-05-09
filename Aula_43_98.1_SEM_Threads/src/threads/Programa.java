@@ -5,13 +5,11 @@ package threads;
  */
 public class Programa {
 	public static void main(String[] args) {
-				
-		BarraDeProgresso barra = new BarraDeProgresso();
-		barra.executa(); 
 		
 		GeraRelatorio relatorio = new GeraRelatorio();
-		relatorio.executa(); 
+		relatorio.executa();
 
-
+		BarraDeProgresso barra = new BarraDeProgresso();
+		barra.executa();
 	}
 }

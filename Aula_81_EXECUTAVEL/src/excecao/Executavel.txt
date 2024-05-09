@@ -1,9 +1,0 @@
-JAR - JAva Archive
-
-Archive - Aqruivo compactado JAVA
-
-Gerando Executáveis jar 
-
-Jar - é igual ao ZIP ou rar
-
-
