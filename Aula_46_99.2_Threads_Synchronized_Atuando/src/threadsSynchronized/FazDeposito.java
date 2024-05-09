@@ -1,9 +1,9 @@
 package threadsSynchronized;
 
-public class FazDeposito implements Runnable{
-	
+public class FazDeposito implements Runnable {
+
 	private Conta conta;
-	
+
 	public FazDeposito(Conta conta) {
 		this.conta = conta;
 	}
@@ -11,6 +11,6 @@ public class FazDeposito implements Runnable{
 	// METODO DO Runnable
 	@Override
 	public void run() {
-		this.conta.depositar(1500.0f);		
+		this.conta.depositar(1500.0f);
 	}
 }
