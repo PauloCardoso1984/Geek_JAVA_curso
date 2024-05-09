@@ -1,7 +1,5 @@
 package threadsSynchronized;
 
-import java.util.Objects;
-
 public class Conta {
 	private int numero;
 	private float saldo;
