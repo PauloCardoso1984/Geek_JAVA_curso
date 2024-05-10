@@ -63,10 +63,10 @@ public class Conta {
 
 	// DEPÓSITO
 	// Forma 1
-	/*
-	 * void depositar(float valor) { synchronized (this) { this.saldo = this.saldo +
-	 * valor; } }
-	 */
+/*
+	  void depositar(float valor) { synchronized (this) { this.saldo = this.saldo +
+	  valor; } }
+*/
 	// Forma 2
 	public synchronized void depositar(float valor) {
 		this.saldo = this.saldo + valor;
