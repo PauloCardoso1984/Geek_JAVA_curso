@@ -25,6 +25,9 @@ public class Programa {
 		pilha.insere("Cardoso");
 		System.out.println(pilha);
 		
+		// PEGAR DO TOPO
+		System.out.println("Mostra o nome do topo: " + pilha.pegaTopo());
+		
 		// REMOVIDO
 		pilha.remove();
 		System.out.println(pilha);		

@@ -23,6 +23,18 @@ public class Pilha {
 		return nomes.remove(nomes.size() - 1);		
 	}
 	
+	/**
+	 * Mostrará o elemento do topo.
+	 * @return
+	 */
+	public String pegaTopo() {
+		return nomes.get(nomes.size() - 1);	
+	}
+	
+	/**
+	 * Mostrará falso ou verdadeiro se a pilha estiver vazia.
+	 * @return
+	 */
 	public boolean vazia() {
 		return nomes.size() == 0;		
 	}
