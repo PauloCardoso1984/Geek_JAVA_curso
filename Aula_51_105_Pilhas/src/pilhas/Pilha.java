@@ -20,8 +20,15 @@ public class Pilha {
 	 * @return
 	 */
 	public String remove() {
-		return nomes.remove(nomes.size() - 1);		
+		// return nomes.remove(nomes.size() - 1);
+		try {
+			return nomes.remove(0);
+		} catch (IndexOutOfBoundsException e) {
+			System.out.println("===== A lista já está vazia =====");
+			return " ";
+		}
 	}
+
 	
 	/**
 	 * Mostrará o elemento do topo.
