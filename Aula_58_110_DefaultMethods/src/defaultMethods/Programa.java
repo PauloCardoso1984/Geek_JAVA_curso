@@ -14,7 +14,5 @@ public class Programa {
 		
 		// CHAMANDO DENTRO DA INTERFACE
 		t.meu_metodo();
-		
-
 	}
 }
