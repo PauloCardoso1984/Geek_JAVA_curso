@@ -30,7 +30,7 @@ public class Programa {
 		String nome2 = "Anjo";
 		String nome3 = "Jesus";
 		
-		// PASSARA UM VALOR NUMÉRICO
+		// PASSARÁ UM VALOR NUMÉRICO
 		System.out.println(nome1.hashCode());
 		System.out.println(nome2.hashCode());
 		System.out.println(nome3.hashCode());
