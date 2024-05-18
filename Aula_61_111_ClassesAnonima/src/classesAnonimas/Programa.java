@@ -35,7 +35,7 @@ public class Programa {
 		System.out.println(palavras + "\n");
 
 		// IMPRIMINDO USANDO INTERFACE E FOR EACH
-		System.out.println("IMPRIMINDO USANDO INTERFACE E FOR EACH");
+		System.out.println("\nIMPRIMINDO USANDO INTERFACE E FOR EACH");
 		Consumer<String> consumidor = new Consumer<String>() {
 
 			@Override
