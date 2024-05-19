@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="aula_19.Trapezio"/>
     <fullyQualifiedTypeName name="aula_19.CalcularTrapezio"/>
     <fullyQualifiedTypeName name="aula_19.OperacoesMatematica"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="threads.FazDeposito"/>
     <fullyQualifiedTypeName name="threadsSynchronized.Cliente"/>
@@ -18,9 +17,18 @@
     <fullyQualifiedTypeName name="calculo.Pitagoras"/>
     <fullyQualifiedTypeName name="java.lang.Float"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="defaultMethods.ComparadorPorTamanho"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="defaultMethods.MinhaClasse"/>
+    <fullyQualifiedTypeName name="ForEach.ImprimeNaLinha"/>
+    <fullyQualifiedTypeName name="classesAnonimas.ImprimeNaLinha"/>
 </qualifiedTypeNameHistroy>
