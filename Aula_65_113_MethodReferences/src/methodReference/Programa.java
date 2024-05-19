@@ -1,4 +1,4 @@
-package lambdas;
+package methodReference;
 
 import java.util.ArrayList;
 import java.util.Comparator;
