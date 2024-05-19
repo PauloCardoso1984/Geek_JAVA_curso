@@ -5,8 +5,12 @@ import java.util.Comparator;
 import java.util.List;
 
 /* STREAMS
- * => 
- * */
+ 
+ * REVISÃO:
+ - Classes Anônimas
+ - Lambdas
+ - Method Reference
+*/
 public class Programa {
 	public static void main(String[] args) {
 
