@@ -2,6 +2,7 @@ package streams;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /* STREAMS
 => São fluxos de dados, ou fluxos de objetos. Utilizadoas para que possamos
@@ -27,10 +28,22 @@ public class Programa {
 		System.out.println(cursos);
 		System.out.println();
 
-		// FILTRANDO A LISTA COM A QUANTIDADE DE ALUNOS E SOMANDO
-		cursos.stream().filter(c -> c.getAluno() > 800)
-				// .findAny() // PEGA QUALQUER UM DE ACORDO COM O FILTRO
-				.findFirst() // PEGA O PRIMEIRO
-				.ifPresent(System.out::println); // SE ENCONTRAR ALGUM ELEMENTO, IMPRIME
+		// FORMA 1 - LISTA FILTRADA POR QUANTIDADE DE ALUNO
+		System.out.println("LISTA FILTRADA POR QUANTIDADE DE ALUNO");
+		List<Curso> resultado = cursos.stream()
+				.filter(c -> c.getAluno() > 1500)
+				.collect(Collectors.toList());
+		// FORMA 1 DE IMPRIMIR
+		System.out.println(resultado);
+		System.out.println();
+		// FORMA 2 DE IMPRIMIR
+		resultado.forEach(System.out::println);
+		System.out.println();
+		
+		// FORMA 2 - LISTA FILTRADA POR QUANTIDADE DE ALUNO
+		cursos.stream()
+		.filter(c -> c.getAluno() > 1200)
+		.collect(Collectors.toMap(c -> c.getNome(), c -> c.getAluno()))
+		.forEach((nome, aluno) -> System.out.println (nome + " tem " + aluno + " alunos"));
 	}
 }
