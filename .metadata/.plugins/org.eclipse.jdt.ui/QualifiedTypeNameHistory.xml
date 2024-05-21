@@ -31,4 +31,10 @@
     <fullyQualifiedTypeName name="defaultMethods.MinhaClasse"/>
     <fullyQualifiedTypeName name="ForEach.ImprimeNaLinha"/>
     <fullyQualifiedTypeName name="classesAnonimas.ImprimeNaLinha"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collector"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.Month"/>
+    <fullyQualifiedTypeName name="java.time.Period"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 </qualifiedTypeNameHistroy>

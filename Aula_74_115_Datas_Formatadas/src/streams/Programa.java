@@ -39,7 +39,7 @@ public class Programa {
 		// FORMATANDO AS DATAS / HORAS
 		System.out.println("\nDATAS / HORAS");
 		LocalDateTime agora = LocalDateTime.now();
-		System.out.println("PADRÃO IS0: " + agora);
+		System.out.println("PADR4O IS0: " + agora);
 		// FORMANTANDO HORAS
 		DateTimeFormatter formatador_horas = DateTimeFormatter.ofPattern("dd/MM/yyyy, HH:mm:ss");
 		System.out.println("FORMATANDO AS DATAS / HORAS: "+ agora.format(formatador_horas) + "\n");
