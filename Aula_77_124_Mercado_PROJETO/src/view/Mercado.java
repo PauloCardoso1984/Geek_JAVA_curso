@@ -37,7 +37,7 @@ public class Mercado {
 		System.out.print(
 				"1 - Cadastrar produtos \n2 - Listar Produtos \n3 - Comprar produtos \n4 - Visualizar carrinho \n5 - Sair do sistema \nOpção: ");
 
-		
+		int opcao = 0;
 
 		try {
 			opcao = Integer.parseInt(Mercado.sc.nextLine());
@@ -46,8 +46,6 @@ public class Mercado {
 		} catch (NumberFormatException f) {
 			Mercado.menu();
 		}
-		
-		int opcao = 0;
 
 		switch (opcao) {
 
@@ -189,7 +187,7 @@ public class Mercado {
 		
 		Utils.pausar(2);
 		Mercado.menu();			
-	}
+	}  
 	
 	
 	// FECHAR PEDIDO ==================================================================
